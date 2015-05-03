@@ -1,5 +1,7 @@
 %@String(icra = "Proceedings of the IEEE International Conference on Robotics and Automation")
 %@String(icra = "(ICRA)")
+%@String(iros = "(IROS)")
+@String(rss = "Robotics: Science and Systems")
 @String(icra = "International Conference on Robotics and Automation")
 @String(iros = "International Conference on Intelligent Robots and Systems")
 @String(humanoids = "International Conference on Humanoid Robots")
@@ -109,10 +111,31 @@ pages = "21 - 32",
 
 
 
+@inproceedings{kavraki_1995,
+  title={\href{http://www.sciencedirect.com/science/article/pii/S0022000098915781}{Randomized
+          query processing in robot path planning}},
+  author={Kavraki, Lydia E and Latombe, Jean-Claude and Motwani, Rajeev and Raghavan, Prabhakar},
+  booktitle={Symposium on Theory of Computing},
+  pages={353--362},
+  year={1995},
+  organization={ACM}
+}
+
+
+@inproceedings{perrin_2011,
+  author = {N. Perrin and O. Stasse and F. Lamiraux and E. Yoshida},
+  title = {\href{http://dx.doi.org/10.1109/IROS.2011.6048120}{Weakly collision-free paths for continuous humanoid footstep planning}},
+  booktitle = iros,
+  year = {2011}
+}
+
+
 @INPROCEEDINGS{yang_2005,
     AUTHOR    = {Yuandong Yang and Oliver Brock},
-    TITLE     = {Effcient Motion Planning Based on Disassembly},
-    BOOKTITLE = {Proceedings of Robotics: Science and Systems},
+    TITLE     =
+    {\href{http://www.roboticsproceedings.org/rss01/p14.pdf}{Efficient Motion
+            Planning Based on Disassembly}},
+    BOOKTITLE = rss,
     YEAR      = {2005},
     ADDRESS   = {Cambridge, USA},
     MONTH     = {June},
@@ -138,7 +161,8 @@ pages = "21 - 32",
 }
 
 @article{bhattacharya_2012,
-  title={Topological constraints in search-based robot path planning},
+  title={\href{http://link.springer.com/article/10.1007/s10514-012-9304-1}{Topological
+          constraints in search-based robot path planning}},
   author={Bhattacharya, Subhrajit and Likhachev, Maxim and Kumar, Vijay},
   journal={Autonomous Robots},
   volume={33},
@@ -150,7 +174,9 @@ pages = "21 - 32",
 
 
 @article{ivan_2013,
-  title={Topology-based representations for motion planning and generalization in dynamic environments with interactions},
+  title={\href{http://ijr.sagepub.com/content/early/2013/06/13/0278364913482017.abstract}{Topology-based
+          representations for motion planning and generalization in dynamic
+                  environments with interactions}},
   author={Ivan, Vladimir and Zarubin, Dmitry and Toussaint, Marc and Komura, Taku and Vijayakumar, Sethu},
   journal={The International Journal of Robotics Research},
   volume={32},
@@ -207,11 +233,9 @@ year ={2014}
   publisher={SAGE Publications}
 }
 
-
-
 @misc{cvxpy,
   author       = {Steven Diamond and Eric Chu and Stephen Boyd},
-  title        = {{CVXPY}: A {P}ython-Embedded Modeling Language for Convex Optimization, version 0.2},
+  title        = {{CVXPY}: A {P}ython-Embedded Modeling Language for Convex Optimization},
   howpublished = {\url{http://cvxpy.org/}},
   month        = may,
   year         = 2014
@@ -229,8 +253,9 @@ year ={2014}
 
 @article{vatti_1992,
  author = {Vatti, Bala R.},
- title = {A Generic Solution to Polygon Clipping},
- journal = {Commun. ACM},
+ title = {\href{http://dl.acm.org/citation.cfm?id=129906}{A Generic Solution to
+         Polygon Clipping}},
+ journal = {Communications of ACM},
  issue_date = {July 1992},
  volume = {35},
  number = {7},
@@ -244,7 +269,6 @@ year ={2014}
  acmid = {129906},
  publisher = {ACM},
  address = {New York, NY, USA},
- keywords = {connectivity coherence, contributing edge, contributing local minimum, difference, hidden surface, intersection, polygon clipping, scanbeam, spatial coherence, successor edge, trapezoids, unions, vertex classification},
 } 
 
 @article{torralba_2003,
@@ -318,7 +342,7 @@ Volume = {79},
 @INPROCEEDINGS{pokorny_2014,
     AUTHOR    = {\href{http://www.roboticsproceedings.org/rss10/p54.html}{Florian T. Pokorny AND Majd Hawasly AND Subramanian Ramamoorthy}},
     TITLE     = {Multiscale Topological Trajectory Classification with Persistent Homology}, 
-    BOOKTITLE = {Proceedings of Robotics: Science and Systems}, 
+    BOOKTITLE = rss,
     YEAR      = {2014}, 
     ADDRESS   = {Berkeley, USA}, 
     MONTH     = {July} 
@@ -338,9 +362,10 @@ Volume = {79},
   publisher={MIT press}
 }
 @inproceedings{reif_1979,
-  title={Complexity of the mover's problem and generalizations},
+  title={\href{http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4568037}{Complexity
+          of the mover's problem and generalizations}},
   author={Reif, John H},
-  booktitle={Proceedings of the 20th Annual IEEE Conference on Foundations of Computer Science},
+  booktitle={Conference on Foundations of Computer Science},
   pages={421--427},
   year={1979}
 }
@@ -381,7 +406,6 @@ PAGES = { 739--744 },
     TITLE = {\href{http://homepages.laas.fr/aorthey/papers/orthey_2015a.pdf}{Motion Planning and Irreducible Trajectories}},
     AUTHOR = { Orthey, Andreas and Lamiraux, Florent and Stasse, Olivier},
     BOOKTITLE = icra,
-    ADDRESS={Seattle, WA, USA},
     YEAR = {2015}
 }
 
@@ -523,7 +547,7 @@ PAGES = { 739--744 },
                Oliver Brock},
   title     = {Elastic roadmaps - motion generation for autonomous mobile
                manipulation},
-  journal   = {Auton. Robots},
+  journal   = {Autonomous Robots},
   volume    = {28},
   number    = {1},
   year      = {2010},
@@ -612,7 +636,7 @@ language={English}
 @inproceedings{burns_2005,
   title={Toward Optimal Configuration Space Sampling.},
   author={Burns, Brendan and Brock, Oliver},
-  booktitle={Robotics: Science and Systems},
+  booktitle=rss,
   pages={105--112},
   year={2005},
 }
@@ -819,8 +843,10 @@ language={English}
 
 @INPROCEEDINGS{hrp2,
     author = {Kenji Kaneko and Fumio Kanehiro and Shuuji Kajita and Hirohisa Hirukawa and Toshikazu Kawasaki and Masaru Hirata and Kazuhiko Akachi and Takakatsu Isozumi},
-    title = {Humanoid robot HRP-2},
-    booktitle = {In IEEE Int. Conf. Rob. Aut},
+    title =
+    {\href{http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1307969}{Humanoid
+            robot HRP-2}},
+    booktitle = icra,
     year = {2004},
     pages = {1083--1090}
 }
@@ -1054,7 +1080,7 @@ keywords = "Posture optimization"
   added-at = {2013-01-02T00:00:00.000+0100},
   author = {Phillips, Michael and Cohen, Benjamin J. and Chitta, Sachin and Likhachev, Maxim},
   biburl = {http://www.bibsonomy.org/bibtex/232864c6e7ebb73b73f5cf40565a8ae1e/dblp},
-  booktitle = {Robotics: Science and Systems},
+  booktitle = rss,
   ee = {http://www.roboticsproceedings.org/rss08/p43.html},
   interhash = {91d0a32a4dde9d67b0c27588a423404b},
   intrahash = {32864c6e7ebb73b73f5cf40565a8ae1e},
@@ -2159,7 +2185,8 @@ bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 
 @article{openhrp,
-  title={OpenHRP: Open architecture humanoid robotics platform},
+  title={\href{http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1013334}{OpenHRP:
+          Open architecture humanoid robotics platform}},
   author={Kanehiro, Fumio and Hirukawa, Hirohisa and Kajita, Shuuji},
   journal={The International Journal of Robotics Research},
   volume={23},
