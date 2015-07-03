@@ -6,12 +6,145 @@
 @String(iros = "International Conference on Intelligent Robots and Systems")
 @String(humanoids = "International Conference on Humanoid Robots")
 @String(ijrr = "International Journal of Robotics Research")
+@String(isrr = "International Symposium of Robotics Research")
+@String(jofr = "Journal of Field Robotics")
 @String(tro = "Transactions on Robotics")
 @String(star = "Springer Tracts in Advanced Robotics")
 @String(ram = "Robotics and Automation Magazine")
 @String(acc = "American Control Conference")
 @String(ica = "Intelligent Control and Automation")
+
+
+
+@article{hwang_1992,
+  title={Gross motion planning—a survey},
+  author={Hwang, Yong K and Ahuja, Narendra},
+  journal={ACM Computing Surveys (CSUR)},
+  volume={24},
+  number={3},
+  pages={219--291},
+  year={1992},
+  publisher={ACM}
+}
+
+@article{farber_2003,
+  title={\href{http://arxiv.org/abs/math/0111197}{Topological complexity of
+          motion planning}},
+  author={Farber, Michael},
+  journal={Discrete and Computational Geometry},
+  volume={29},
+  number={2},
+  pages={211--221},
+  year={2003},
+  publisher={Springer}
+}
+
+%%%%%%%%% DRC
+
+@article{johnson_2015,
+  title={Team IHMC's Lessons Learned from the DARPA Robotics Challenge Trials},
+  author={Johnson, Matthew and Shrewsbury, Brandon and Bertrand, Sylvain and Wu, Tingfan and Duran, Daniel and Floyd, Marshall and Abeles, Peter and Stephen, Douglas and Mertins, Nathan and Lesman, Alex and others},
+  journal=jofr,
+  year={2015},
+}
+
+@inproceedings{kuffner_2005,
+  title={Motion planning for humanoid robots},
+  author={Kuffner, James and Nishiwaki, Koichi and Kagami, Satoshi and Inaba, Masayuki and Inoue, Hirochika},
+  booktitle=isrr,
+  year={2005},
+}
+
+
+@INPROCEEDINGS { dalibard_2010,
+    TITLE = { \href{http://hal.archives-ouvertes.fr/docs/00/51/81/87/PDF/dalibard-humanoids10.pdf}{Manipulation of documented objects by a walking humanoid robot }},
+    AUTHOR = { Dalibard, S. and Nakhaei, A. and Lamiraux, F. and Laumond, J.P. },
+    BOOKTITLE = humanoids,
+    YEAR = { 2010 },
+}
+
+@article{jaillet_2013,
+  title={Path planning under kinematic constraints by rapidly exploring manifolds},
+  author={Jaillet, L{\'e}onard and Porta, Josep M},
+  journal=tro,
+  year={2013},
+  publisher={IEEE}
+}
+
+
+
+@article{elbanhawi_2014,
+  title={Sampling-based robot motion planning: A review},
+  author={Elbanhawi, Mohamed and Simic, Mitar},
+  journal={Access, IEEE},
+  volume={2},
+  pages={56--77},
+  year={2014},
+  publisher={IEEE}
+}
+
+@inproceedings{beetz_2011,
+  title={Robotic roommates making pancakes},
+  author={Beetz, Michael and Klank, Ulrich and Kresse, Ingo and Maldonado, Andres and Mosenlechner, Lorenz and Pangercic, Dejan and Ruhr, Thomas and Tenorth, Moritz},
+  booktitle=humanoids,
+  year={2011},
+}
+
+
+@article{al_2012,
+  title={Motion planning algorithms for molecular simulations: A survey},
+  author={Al-Bluwi, Ibrahim and Sim{\'e}on, Thierry and Cort{\'e}s, Juan},
+  journal={Computer Science Review},
+  volume={6},
+  number={4},
+  pages={125--143},
+  year={2012},
+  publisher={Elsevier}
+}
+
+@incollection{devaurs_2015,
+  title={Efficient sampling-based approaches to optimal path planning in complex cost spaces},
+  author={Devaurs, Didier and Sim{\'e}on, Thierry and Cort{\'e}s, Juan},
+  booktitle={Algorithmic Foundations of Robotics XI},
+  pages={143--159},
+  year={2015},
+  publisher={Springer International Publishing}
+}
+
+@article{dill_2012,
+  title={The protein-folding problem, 50 years on},
+  author={Dill, Ken A and MacCallum, Justin L},
+  journal={Science},
+  volume={338},
+  number={6110},
+  pages={1042--1046},
+  year={2012},
+  publisher={American Association for the Advancement of Science}
+}
+
+
+
+
+
 %%%%%%%%%%%%%%%%%%%% SNAKE PLANNING %%%%%%%%%%%%%% 
+
+
+@article{tonneau_2014,
+title = {\href{http://www.sciencedirect.com/science/article/pii/S009784931400079X}{Using task efficient contact configurations to animate creatures in arbitrary environments}},
+journal = {Computers and Graphics},
+year = "2014",
+author = "Steve Tonneau and Julien Pettré and Franck Multon",
+}
+
+@inproceedings{yoshikawa_1984,
+  title={Analysis and control of robot manipulators with redundancy},
+  author={Yoshikawa, Tsuneo},
+  booktitle=isrr,
+  year={1984},
+  organization={Mit Press Cambridge, MA}
+}
+
+
 
 
 @inproceedings{Rollinson-2011,
@@ -406,7 +539,7 @@ Volume = {79},
 
 @inproceedings{stork_2013,
         author = {Stork, Johannes A. and Pokorny, Florian T.  and Kragic, Danica}, 
-        booktitle = {IEEE-RAS International Conference on Humanoid Robots (HUMANOIDS)}, 
+        booktitle = humanoids,
         title = {A Topology-based Object Representation for Clasping, Latching and Hooking}, 
         year = {2013}, 
         address = {Atlanta, USA}, 
@@ -483,11 +616,11 @@ PAGES = { 739--744 },
     YEAR = {2015}
 }
 
-@UNPUBLISHED { orthey_2015b,
+@INPROCEEDINGS { orthey_2015b,
     AUTHOR = { Andreas Orthey and Vladimir Ivan and Maximilien Naveau and Yiming Yang and Olivier Stasse and Sethu Vijayakumar },
-    TITLE = {\href{https://hal.archives-ouvertes.fr/hal-01137918v1}{Homotopic Particle Motion Planning for Humanoid Robotics}},
-    NOTE = {Submitted to International Conference on Intelligent Robots and Systems (IROS)},
-    YEAR = { 2015},
+    TITLE = {\href{https://hal.archives-ouvertes.fr/hal-01137918v1}{Homotopic Particle Motion Planning}},
+    BOOKTITLE = humanoids,
+    YEAR = {2015 (Submitted to)},
 }
 
 @INPROCEEDINGS {orthey_2015c,
@@ -982,6 +1115,15 @@ keywords = "Posture optimization"
   timestamp = {2007.07.12},
   url = {http://www.cs.cmu.edu/~mstoll/publications.shtml}
 }
+@inproceedings{berenson_2009,
+  title={Manipulation planning on constraint manifolds},
+  author={Berenson, Dmitry and Srinivasa, Siddhartha S and Ferguson, Dave and Kuffner, James J},
+  booktitle=icra,
+  year={2009},
+  organization={IEEE}
+}
+
+
 @inproceedings{berenson_2012,
   author    = {Dmitry Berenson and
                Pieter Abbeel and
@@ -1273,6 +1415,16 @@ keywords = "Posture optimization"
   year         = {1998}
 }
 
+
+@article{karaman_2011,
+  title={Sampling-based algorithms for optimal motion planning},
+  author={Karaman, Sertac and Frazzoli, Emilio},
+  journal=ijrr,
+  volume={30},
+  number={7},
+  year={2011},
+  publisher={Sage Publications}
+}
 
 
 @InProceedings{hansen_2004,
@@ -1577,7 +1729,7 @@ pages={122–-129}}
 @INPROCEEDINGS{stulp_schaal_2011a,
   author = {Freek Stulp and Stefan Schaal},
   title = {Hierarchical Reinforcement Learning with Motion Primitives},
-  booktitle = {11th IEEE-RAS International Conference on Humanoid Robots},
+  booktitle = humanoids,
   year = {2011},
   bib2html_accrate = {Oral: 15\%},
   bib2html_pubtype = {Refereed Conference Paper},
@@ -1973,7 +2125,6 @@ year = 2007,
 volume = {14},
 number = {1},
 pages = {61-70},
-abstract = {Approaches to robot motion planning and control that involve tools such as automata, languages, temporal logics, and grammars, have been recently termed "symbolic." In this article, we review some existing results, discuss their relevance and applicability, and outline some of the main open questions and challenges in the area.},
 keywords = {Quantized Control Systems, Hybrid and Embedded Control Systems, Nonlinear Control Systems},
 keywords = {Robotics, Embedded Control} 
 }
