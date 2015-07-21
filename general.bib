@@ -5,15 +5,27 @@
 @String(icra = "International Conference on Robotics and Automation")
 @String(iros = "International Conference on Intelligent Robots and Systems")
 @String(humanoids = "International Conference on Humanoid Robots")
+@String(icar = "International Conference on Advanced Robotics")
+
 @String(ijrr = "International Journal of Robotics Research")
+@String(tro = "Transactions on Robotics")
 @String(isrr = "International Symposium of Robotics Research")
 @String(jofr = "Journal of Field Robotics")
-@String(tro = "Transactions on Robotics")
 @String(star = "Springer Tracts in Advanced Robotics")
 @String(ram = "Robotics and Automation Magazine")
 @String(acc = "American Control Conference")
 @String(ica = "Intelligent Control and Automation")
 
+
+@conference{ostasse_2014,
+ title = {\href{https://www.youtube.com/watch?v=iFV-13XlJvI}{Airbus/Future of Aircraft Factory, HRP-2 as Universal Worker Proof of Concept}},
+         booktitle = humanoids,
+         year = {2014},
+         pages = {Video Session},
+         url = {https://www.youtube.com/watch?v=iFV-13XlJvI},
+         author = {Olivier Stasse and Andreas Orthey and Francesco Morsillo and Mathieu Geisert and Nicolas Mansard and Maximilien Naveau and Christian Vassallo},
+         pdf = {https://homepages.laas.fr/ostasse/drupal/sites/homepages.laas.fr.ostasse/files/14-ichr-airbus_0.pdf}
+}
 
 
 @article{hwang_1992,
@@ -62,6 +74,18 @@
     BOOKTITLE = humanoids,
     YEAR = { 2010 },
 }
+
+@article{lengagne_2011,
+  title={Planning and fast replanning safe motions for humanoid robots},
+  author={Lengagne, S{\'e}bastien and Ramdani, Nacim and Fraisse, Philippe},
+  journal=tro,
+  volume={27},
+  number={6},
+  pages={1095--1106},
+  year={2011},
+  publisher={IEEE}
+}
+
 
 @article{jaillet_2013,
   title={Path planning under kinematic constraints by rapidly exploring manifolds},
@@ -359,7 +383,7 @@ pages = "21 - 32",
 @article{sisbot_2007,
   title={A human aware mobile robot motion planner},
   author={Sisbot, Emrah Akin and Marin-Urias, Luis Felipe and Alami, Rachid and Simeon, Thierry},
-  journal={Robotics, IEEE Transactions on},
+  journal=tro,
   volume={23},
   number={5},
   pages={874--883},
@@ -397,7 +421,7 @@ pages = "21 - 32",
 key = "RSS",
 author  = "Dmitry Zarubin and Vladimir Ivan and Marc Toussaint and Sethu Vijayakumar",
 title = "Hierarchical Motion Planning in Topological Representations",
-booktitle  = "Int.{} Conf.{} on Robotics Science and Systems (R:SS 2012)",
+booktitle  = rss,
 year = "2012",
 }
 
@@ -513,7 +537,7 @@ Volume = {79},
 @inproceedings{katz_2008,
   title={Manipulating articulated objects with interactive perception},
   author={Katz, Dov and Brock, Oliver},
-  booktitle={Robotics and Automation, 2008. ICRA 2008. IEEE International Conference on},
+  booktitle=icra,
   pages={272--277},
   year={2008},
   organization={IEEE}
@@ -826,7 +850,7 @@ language={English}
 @ARTICLE{mansard_2009,
     AUTHOR = { Mansard, N. and Khatib, O. and Khedar, A. },
     TITLE = { A Unified Approach to Integrate Unilateral Constraints in the Stack of Tasks },
-    JOURNAL = { IEEE Transaction on Robotics },
+    JOURNAL = tro,
     YEAR = { 2009 },
     MONTH = { June },
     VOLUME = { 25 },
@@ -859,7 +883,7 @@ language={English}
 @inproceedings{hornung_2012,
   title={Adaptive level-of-detail planning for efficient humanoid navigation},
   author={Hornung, Armin and Bennewitz, Maren},
-  booktitle={Robotics and Automation (ICRA), 2012 IEEE International Conference on},
+  booktitle=icra,
   pages={997--1002},
   year={2012},
   organization={IEEE}
@@ -918,7 +942,7 @@ language={English}
 @article{perrin_2012,
   author = {N. Perrin and O. Stasse and L. Baudouin and F. Lamiraux and E. Yoshida},
   title = {\href{http://dx.doi.org/10.1109/TRO.2011.2172152}{Fast humanoid robot collision-free footstep planning using swept volume approximations}},
-  journal = {IEEE Transactions on Robotics},
+  journal = tro,
   year = {2012},
   volume = {28},
   number = {2},
@@ -1055,7 +1079,7 @@ language={English}
 @article{noel_2012,
   title={Robot motion planning in dynamic, uncertain environments},
   author={Du Toit, Noel E and Burdick, Joel W},
-  journal={Robotics, IEEE Transactions on},
+  journal=tro,
   volume={28},
   number={1},
   pages={101--115},
@@ -1216,7 +1240,7 @@ keywords = "Posture optimization"
   author = {Khansari-Zadeh, S. M. and Billard, Aude},
   title = {\href{http://lasa.epfl.ch/khansari}{Learning {S}table {N}on-{L}inear {D}ynamical {S}ystems with {G}aussian
 	{M}ixture {M}odels}},
-  journal = {{IEEE} {T}ransaction on {R}obotics},
+  journal = tro,
   year = {2011},
   affiliation = {EPFL},
   pdf = {http://lasa.epfl.ch/khansari},
@@ -1713,7 +1737,7 @@ pages={122–-129}}
   author =		 "Stulp, F. and Theodorou, E. and Buchli, J. and Schaal, S.",
   year =			 "2011",
   title =			 "learning to grasp under uncertainty",
-  booktitle =		 "robotics and automation (icra), 2011 ieee international conference on",
+  booktitle =		 icra,
   key =			 "reinforcement learning, stochasticity, motor primitives, skills",
   URL =			 "http://www-clmc.usc.edu/publications/S/stulp-ICRA2011.pdf",
 
@@ -1853,8 +1877,6 @@ year={2014},
 publisher={CreateSpace Independent Publishing Platform}
 }
 
-
-
 @book{pfeifer_scheier_1999,
   author    = {Rolf Pfeifer and
                Christian Scheier},
@@ -1897,7 +1919,7 @@ publisher={CreateSpace Independent Publishing Platform}
   author    = {Leslie Pack Kaelbling and
                Tom{\'a}s Lozano-P{\'e}rez},
   title     = {Hierarchical task and motion planning in the now},
-  booktitle = {ICRA},
+  booktitle = icra,
   year      = {2011},
   pages     = {1470-1477},
   ee        = {http://dx.doi.org/10.1109/ICRA.2011.5980391},
@@ -1912,7 +1934,7 @@ publisher={CreateSpace Independent Publishing Platform}
                Gregory D. Hager},
   title     = {Sampling-Based Motion and Symbolic Action Planning with
                geometric and differential constraints},
-  booktitle = {ICRA},
+  booktitle = icra,
   year      = {2010},
   pages     = {5002-5008},
   ee        = {http://dx.doi.org/10.1109/ROBOT.2010.5509563},
@@ -1950,7 +1972,7 @@ publisher={CreateSpace Independent Publishing Platform}
   author    = {Jaesik Choi and
                Eyal Amir},
   title     = {Combining planning and motion planning},
-  booktitle = {ICRA},
+  booktitle = icra,
   year      = {2009},
   pages     = {238-244},
   ee        = {http://dx.doi.org/10.1109/ROBOT.2009.5152872},
@@ -2022,7 +2044,7 @@ publisher={CreateSpace Independent Publishing Platform}
                Lydia E. Kavraki and
                Moshe Y. Vardi},
   title     = {Sampling-based motion planning with temporal goals},
-  booktitle = {ICRA},
+  booktitle = icra,
   year      = {2010},
   pages     = {2689-2696},
   ee        = {http://dx.doi.org/10.1109/ROBOT.2010.5509503},
@@ -2054,10 +2076,9 @@ bibsource = {DBLP, http://dblp.uni-trier.de}
                Lydia E. Kavraki},
   title     = {Mobile manipulation: Encoding motion planning options using
                task motion multigraphs},
-  booktitle = {ICRA},
+  booktitle = icra,
   year      = {2011},
   pages     = {5492-5498},
-  ee        = {http://dx.doi.org/10.1109/ICRA.2011.5980212},
 
   bibsource = {DBLP, http://dblp.uni-trier.de}
 }
@@ -2088,10 +2109,9 @@ Gokul Subramania and
 Sachin Chitta and
 Maxim Likhachev},
 title     = {Planning for Manipulation with Adaptive Motion Primitives},
-booktitle = {ICRA},
+booktitle = icra,
 year      = {2011},
 pages     = {5478-5485},
-ee        = {http://dx.doi.org/10.1109/ICRA.2011.5980550},
 crossref  = {DBLP:conf/icra/2011},
 bibsource = {DBLP, http://dblp.uni-trier.de}
 }
@@ -2447,7 +2467,7 @@ bibsource = {DBLP, http://dblp.uni-trier.de}
 @inproceedings{kasper_2011,
   title={Using spatial relations of objects in real world scenes for scene structuring and scene understanding},
   author={Kasper, Alexander and Jakel, R and Dillmann, R{\"u}diger},
-  booktitle={Advanced Robotics (ICAR), 2011 15th International Conference on},
+  booktitle=icar,
   pages={421--426},
   year={2011},
   organization={IEEE}
