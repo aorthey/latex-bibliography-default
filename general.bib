@@ -1,6 +1,7 @@
 %@String(icra = "Proceedings of the IEEE International Conference on Robotics and Automation")
 %@String(icra = "(ICRA)")
 %@String(iros = "(IROS)")
+
 @String(rss = "Robotics: Science and Systems")
 @String(icra = "International Conference on Robotics and Automation")
 @String(iros = "International Conference on Intelligent Robots and Systems")
@@ -15,6 +16,16 @@
 @String(ram = "Robotics and Automation Magazine")
 @String(acc = "American Control Conference")
 @String(ica = "Intelligent Control and Automation")
+@String(ijcai = "International Joint Conference on Artificial Intelligence")
+
+
+@inproceedings{lozano_perez_2014,
+  title={A constraint-based method for solving sequential manipulation planning problems},
+  author={Lozano-P{\'e}rez, Tom{\'a}s and Kaelbling, Leslie Pack},
+  booktitle=iros,
+  year={2014},
+}
+
 
 
 @conference{ostasse_2014,
@@ -26,7 +37,6 @@
          author = {Olivier Stasse and Andreas Orthey and Francesco Morsillo and Mathieu Geisert and Nicolas Mansard and Maximilien Naveau and Christian Vassallo},
          pdf = {https://homepages.laas.fr/ostasse/drupal/sites/homepages.laas.fr.ostasse/files/14-ichr-airbus_0.pdf}
 }
-
 
 @article{hwang_1992,
   title={Gross motion planning—a survey},
@@ -370,6 +380,25 @@ pages = "21 - 32",
     YEAR      = {2005},
     ADDRESS   = {Cambridge, USA},
     MONTH     = {June},
+}
+
+@article{koolen_2012,
+  title={Capturability-based analysis and control of legged locomotion, Part 1: Theory and application to three simple gait models},
+  author={Koolen, Twan and De Boer, Tomas and Rebula, John and Goswami, Ambarish and Pratt, Jerry},
+  journal=ijrr,
+  volume={31},
+  number={9},
+  year={2012},
+  publisher={SAGE Publications}
+}
+
+@inproceedings{feng_2013,
+  title={3d walking based on online optimization},
+  author={Feng, Siyuan and Xinjilefu, X and Huang, Weiwei and Atkeson, Christopher G},
+  booktitle={Humanoid Robots (Humanoids), 2013 13th IEEE-RAS International Conference on},
+  pages={21--27},
+  year={2013},
+  organization={IEEE}
 }
 
 @conference{deits_2014,
@@ -778,9 +807,6 @@ PAGES = { 739--744 },
   year={2001},
 }
 
-
-
-
 @article{yang_2010,
   author    = {Yuandong Yang and
                Oliver Brock},
@@ -871,12 +897,25 @@ language={English}
   booktitle=icra,
   year={2014},
 }
+@inproceedings{hutchinson_1991,
+  title={Exploiting visual constraints in robot motion planning},
+  author={Hutchinson, Seth},
+  booktitle=icra,
+  year={1991}
+}
+
+
+@inproceedings{burns_2005b,
+  title={Sampling-based motion planning using predictive models},
+  author={Burns, Brendan and Brock, Oliver},
+  booktitle=icra,
+  year={2005},
+}
 
 @inproceedings{burns_2005,
   title={Toward Optimal Configuration Space Sampling.},
   author={Burns, Brendan and Brock, Oliver},
   booktitle=rss,
-  pages={105--112},
   year={2005},
 }
 
@@ -1111,6 +1150,14 @@ language={English}
   bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 
+@inproceedings{lehner_2015,
+Title = {\href{http://www.robotics.tu-berlin.de/fileadmin/fg170/Publikationen_pdf/ICRA15_0300_FI.pdf}{Incremental, Sensor-Based Motion Generation for Mobile Manipulators in Unknown, Dynamic Environments}},
+Author = {Peter Lehner and Arne Sieverling and Oliver Brock},
+Booktitle = icra,
+Year = {2015}
+}
+
+
 @article{escande_2013,
 title = {\href{http://www.sciencedirect.com/science/article/pii/S0921889013000213}{Planning contact points for humanoid robots}},
 journal = "Robotics and Autonomous Systems",
@@ -1182,11 +1229,8 @@ keywords = "Posture optimization"
 }
 @misc{neal_2010,
     author = {Neal, R. M.},
-    citeulike-article-id = {9055009},
-    howpublished = {in \\textit{Handbook of Markov Chain Monte Carlo} (eds S. Brooks, A. Gelman, G. Jones, XL Meng). Chapman and Hall/CRC Press},
-    posted-at = {2011-03-24 16:41:42},
-    priority = {2},
-    title = {{MCMC using Hamiltonian dynamics}},
+    howpublished = {Handbook of Markov Chain Monte Carlo (editors S. Brooks, A. Gelman, G. Jones, XL Meng). Chapman and Hall/CRC Press},
+    title = {MCMC using Hamiltonian dynamics},
     year = {2010}
 }
 
@@ -1514,7 +1558,6 @@ bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 
 @article{loeliger_2004,
-    abstract = {Graphical models such as factor graphs allow a unified approach to a number of key topics in coding and signal processing such as the iterative decoding of turbo codes, {LDPC} codes and similar codes, joint decoding, equalization, parameter estimation, {hidden-Markov} models, Kalman filtering, and recursive least squares. Graphical models can represent complex real-world systems, and such representations help to derive practical detection/estimation algorithms in a wide area of applications. Most known signal processing techniques -including gradient methods, Kalman filtering, and particle methods -can be used as components of such algorithms. Other than most of the previous literature, we have used Forney-style factor graphs, which support hierarchical modeling and are compatible with standard block diagrams.},
     author = {Loeliger, Hans-Andreas},
     booktitle = {Signal Processing Magazine, IEEE},
     citeulike-article-id = {2296567},
@@ -1625,7 +1668,7 @@ an errata, and exercises is available at
                Nils J. Nilsson},
   title     = {STRIPS: A New Approach to the Application of Theorem Proving
                to Problem Solving},
-  booktitle = {IJCAI},
+  booktitle = ijcai,
   year      = {1971},
   pages     = {608--620},
   bibsource = {DBLP, http://dblp.uni-trier.de}
@@ -2199,6 +2242,13 @@ month = Feb}
   note = {ISBN: 978-1-84996-219-3}
 }
 
+@inproceedings{ toussaint_2015,
+        title="Logic-Geometric Programming: An Optimization-Based Approach to
+        Combined Task and Motion Planning",
+        author="Marc Toussaint",
+        booktitle  = ijcai,
+        year="2015",
+}
 
 
 @techreport{younes_littman_2004,
