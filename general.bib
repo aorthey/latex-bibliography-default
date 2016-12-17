@@ -2,14 +2,12 @@
 %@String(icra = "(ICRA)")
 %@String(iros = "(IROS)")
 
-% CONFERENCES ROBOTICS
 @String(rss = "Robotics: Science and Systems")
-@String(icra = "International Conference on Robotics and Automation")
-@String(iros = "International Conference on Intelligent Robots and Systems")
-@String(humanoids = "International Conference on Humanoid Robots")
+@String(icra = "IEEE International Conference on Robotics and Automation")
+@String(iros = "IEEE International Conference on Intelligent Robots and Systems")
+@String(humanoids = "IEEE International Conference on Humanoid Robots")
 @String(icar = "International Conference on Advanced Robotics")
 
-% JOURNALS ROBOTICS
 @String(ijrr = "International Journal of Robotics Research")
 @String(tro = "Transactions on Robotics")
 @String(auto = "Autonomous Robots")
@@ -20,7 +18,6 @@
 @String(ral = "Robotics and Automation Letters")
 @String(acc = "American Control Conference")
 @String(ica = "Intelligent Control and Automation")
-
 @String(ijcai = "International Joint Conference on Artificial Intelligence")
 
 @INPROCEEDINGS{delprete_2015,
@@ -251,13 +248,6 @@ year={2009}
   journal=rss,
   year={2015}
 }
-@inproceedings{caron_2015b,
-  title={Stability of surface contacts for humanoid robots: Closed-form formulae of the contact wrench cone for rectangular support areas},
-  author={Caron, St{\'e}phane and Pham, Quang-Cuong and Nakamura, Yoshihiko},
-  booktitle=icra,
-  year={2015}
-}
-
 
 @incollection{wieber_2006,
   title={Holonomy and nonholonomy in the dynamics of articulated motion},
@@ -297,7 +287,7 @@ year={2009}
 @incollection{sucan_2009,
   title={\href{http://link.springer.com/chapter/10.1007/978-3-642-00312-7_28}{Kinodynamic
           motion planning by interior-exterior cell exploration}},
-  author={Sucan, Ioan A and Kavraki, Lydia E},
+  author={{\c{S}}ucan, Ioan A and Kavraki, Lydia E},
   booktitle={Algorithmic Foundation of Robotics VIII},
   year={2009},
   publisher={Springer}
@@ -348,7 +338,8 @@ year={2009}
   title={Kinodynamic planning in the configuration space via velocity interval propagation},
   author={Pham, Quang-Cuong and Caron, St{\'e}phane and Nakamura, Yoshihiko},
   journal=rss,
-  year={2013}
+  year={2013},
+  publisher={Citeseer}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%% TIME TRAVERSAL PROBLEM (FIND SPEED PROFILE)
@@ -382,7 +373,8 @@ year={2009}
 @inproceedings{kunz_2013,
   title={Time-optimal trajectory generation for path following with bounded acceleration and velocity},
   author={Kunz, Tobias and Stilman, Mike},
-  booktitle=rss,
+  booktitle={Robotics: Science and Systems},
+  pages={209},
   year={2013}
 }
 @article{verscheure_2008,
@@ -395,7 +387,8 @@ year={2009}
 @article{pratt_2012,
   title={Capturability-based analysis and control of legged locomotion, part 2: Application to m2v2, a lower body humanoid},
   author={Pratt, Jerry and Koolen, Twan and De Boer, Tomas and Rebula, John and Cotton, Sebastien and Carff, John and Johnson, Matthew and Neuhaus, Peter},
-  journal=ijrr,
+  journal={The International Journal of Robotics Research},
+  pages={0278364912452762},
   year={2012},
   publisher={SAGE Publications}
 }
@@ -404,7 +397,7 @@ year={2009}
 @article{koolen_2012,
   title={Capturability-based analysis and control of legged locomotion, Part 1: Theory and application to three simple gait models},
   author={Koolen, Twan and De Boer, Tomas and Rebula, John and Goswami, Ambarish and Pratt, Jerry},
-  journal=ijrr,
+  journal={The International Journal of Robotics Research},
   volume={31},
   number={9},
   pages={1094--1113},
@@ -417,8 +410,15 @@ year={2009}
 @inproceedings{yoshida_2011,
   title={Reactive robot motion using path replanning and deformation},
   author={Yoshida, Eiichi and Kanehiro, Fumio},
+<<<<<<< Updated upstream
   booktitle=icra,
   year={2011}
+=======
+  booktitle={Robotics and Automation (ICRA), 2011 IEEE International Conference on},
+  pages={5456--5462},
+  year={2011},
+  organization={IEEE}
+>>>>>>> Stashed changes
 }
 
 
@@ -574,7 +574,8 @@ year={2009}
 @inproceedings{han_2006,
   title={Inverse Kinematics for a Serial Chain with Joints Under Distance Constraints.},
   author={Han, Li and Rudolph, Lee},
-  booktitle=rss,
+  booktitle={Robotics: Science and systems},
+  pages={177--184},
   year={2006}
 }
 
@@ -643,9 +644,6 @@ year={2014},
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-
-
 @inproceedings{vahrenkamp_2009,
   title={\href{http://his.anthropomatik.kit.edu/pdf_humanoids/Vahrenkamp2009b.pdf}{Humanoid motion planning for dual-arm manipulation and re-grasping tasks}},
   author={Vahrenkamp, Niko and Berenson, Dmitry and Asfour, Tamim and Kuffner, James and Dillmann, R{\"u}diger},
@@ -661,14 +659,20 @@ year={2014},
   organization={ACM}
 }
 
+@unpublished{hpp,
+  TITLE = {\href{https://hal.archives-ouvertes.fr/hal-01138118}{HPP: a new software framework for manipulation planning}},
+  AUTHOR = {Lamiraux, Florent and Mirabel, Joseph},
+  URL = {https://hal.archives-ouvertes.fr/hal-01138118},
+  NOTE = {Submitted to International Conference on Intelligent Robots and Systems},
+  YEAR = {2015},
+}
+
 @inproceedings{mahoney_2010,
   title={\href{http://www.cs.utah.edu/gdc/publications/papers/ICRA2010dejohnso.pdf}{Deformable robot motion planning in a reduced-dimension configuration space}},
   author={Mahoney, Arthur and Bross, Joshua and Johnson, David},
   booktitle=icra,
   year={2010},
 }
-organization={IEEE}
-pages={5133--5138},
 
 @incollection{salzman_2013,
   title={\href{http://link.springer.com/chapter/10.1007/978-3-642-36279-8_19}{On the power of manifold samples in exploring configuration spaces and the dimensionality of narrow passages}},
@@ -803,7 +807,7 @@ pages = "21 - 32",
 @inproceedings{feng_2013,
   title={3d walking based on online optimization},
   author={Feng, Siyuan and Xinjilefu, X and Huang, Weiwei and Atkeson, Christopher G},
-  booktitle=humanoids,
+  booktitle={Humanoid Robots (Humanoids), 2013 13th IEEE-RAS International Conference on},
   pages={21--27},
   year={2013},
   organization={IEEE}
@@ -853,7 +857,7 @@ pages = "21 - 32",
           representations for motion planning and generalization in dynamic
                   environments with interactions}},
   author={Ivan, Vladimir and Zarubin, Dmitry and Toussaint, Marc and Komura, Taku and Vijayakumar, Sethu},
-  journal=ijrr,
+  journal={The International Journal of Robotics Research},
   volume={32},
   number={9-10},
   pages={1151--1163},
@@ -873,7 +877,7 @@ year = "2012",
 @conference{martin_2014,
 Title = {\href{http://www.robotics.tu-berlin.de/fileadmin/fg170/Publikationen_pdf/IROS14_0282_RobertoMM.pdf}{Online Interactive Perception of Articulated Objects with Multi-Level Recursive Estimation Based on Task-Specific Priors}},
 Author = {Roberto Martín Martín and Oliver Brock},
-Booktitle = iros,
+Booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems},
 Year = {2014},
 Location = {Chicago, Illinois, USA},
 Projectname = {Interactive Perception}
@@ -882,7 +886,7 @@ Projectname = {Interactive Perception}
 @article{rosman_2011,
   title={Learning spatial relationships between objects},
   author={Rosman, Benjamin and Ramamoorthy, Subramanian},
-  journal=ijrr,
+  journal={The International Journal of Robotics Research},
   volume={30},
   number={11},
   pages={1328--1342},
@@ -900,7 +904,7 @@ year ={2014}
 @article{schulman_2014,
   title={Motion planning with sequential convex optimization and convex collision checking},
   author={Schulman, John and Duan, Yan and Ho, Jonathan and Lee, Alex and Awwal, Ibrahim and Bradlow, Henry and Pan, Jia and Patil, Sachin and Goldberg, Ken and Abbeel, Pieter},
-  journal=ijrr,
+  journal={The International Journal of Robotics Research},
   volume={33},
   number={9},
   pages={1251--1270},
@@ -1033,9 +1037,8 @@ Volume = {79},
 @article{sucan_2012,
   title={The open motion planning library},
   author={Sucan, Ioan A and Moll, Maciej and Kavraki, Lydia E},
-  journal={Robotics \& Automation Magazine, IEEE},
-  year={2012},
-  publisher={IEEE}
+  journal=ram,
+  year={2012}
 }
 
 
@@ -1148,7 +1151,7 @@ PAGES = { 739--744 },
 @inproceedings{eriksson_2003,
   title={\href{https://www.nada.kth.se/utbildning/grukth/exjobb/rapportlistor/2003/rapporter03/eriksson_anders_03076.pdf}{Evolution of meta-parameters in reinforcement learning algorithm}},
   author={Eriksson, Anders and Capi, Genci and Doya, Kenji},
-  booktitle=iros,
+  booktitle={Intelligent Robots and Systems, 2003.(IROS 2003). Proceedings. 2003 IEEE/RSJ International Conference on},
   volume={1},
   pages={412--417},
   year={2003},
@@ -1158,7 +1161,7 @@ PAGES = { 739--744 },
 @article{kober_2013,
   title={\href{http://www.ias.tu-darmstadt.de/uploads/Publications/Kober_IJRR_2013.pdf}{Reinforcement learning in robotics: A survey}},
   author={Kober, Jens and Bagnell, J Andrew and Peters, Jan},
-  journal=ijrr,
+  journal={The International Journal of Robotics Research},
   year={2013},
   publisher={SAGE Publications}
 }
@@ -1251,6 +1254,7 @@ PAGES = { 739--744 },
   year      = {2010},
   pages     = {113-130},
   ee        = {http://springerlink.metapress.com/content/48pk6w1v3022m656/},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 @article{konidaris_2012,
   title={Transfer in reinforcement learning via shared features},
@@ -1300,7 +1304,12 @@ language={English}
 @article{zucker_2013,
    author = "Matthew Zucker and Nathan Ratliff and Anca Dragan and Mihail Pivtoraiko and Matthew Klingensmith and Christopher Dellin and J. Andrew (Drew) Bagnell and Siddhartha Srinivasa",
    title = {\href{http://www.ri.cmu.edu/pub_files/2013/5/CHOMP_IJRR.pdf} {CHOMP: Covariant Hamiltonian Optimization for Motion Planning}},
+<<<<<<< Updated upstream
    journal = ijrr,
+=======
+   journal = "International Journal of Robotics Research",
+   month = "May",
+>>>>>>> Stashed changes
    year = "2013",
 }
 
@@ -1316,7 +1325,7 @@ language={English}
 @inproceedings{chestnutt_2007,
   title={An adaptive action model for legged navigation planning},
   author={Chestnutt, Joel and Nishiwaki, Koichi and Kuffner, James and Kagami, Satoshi},
-  booktitle=humanoids,
+  booktitle={Humanoid Robots, 2007 7th IEEE-RAS International Conference on},
   pages={196--202},
   year={2007},
   organization={IEEE}
@@ -1377,7 +1386,7 @@ language={English}
 @article{nishiwaki_2012,
   title={Autonomous navigation of a humanoid robot over unknown rough terrain using a laser range sensor},
   author={Nishiwaki, Koichi and Chestnutt, Joel and Kagami, Satoshi},
-  journal=ijrr,
+  journal={The International Journal of Robotics Research},
   volume={31},
   number={11},
   pages={1251--1262},
@@ -1397,7 +1406,7 @@ language={English}
 @INPROCEEDINGS { orthey_2013_humanoids,
     AUTHOR = { Andreas Orthey and Olivier Stasse },
     TITLE = { \href{http://e.guigon.free.fr/rsc/article/TodorovJordan02.pdf}{Towards Reactive Whole-Body Motion Planning in Cluttered Environments by Precomputing Feasible Motion Spaces }},
-    BOOKTITLE = humanoids,
+    BOOKTITLE = { International Conference on Humanoid Robots (Humanoids) },
     YEAR = { 2013 },
     ADDRESS = { Atlanta, GA, USA },
     PDF = { http://homepages.laas.fr/aorthey/papers/orthey_2013_humanoids.pdf },
@@ -1444,6 +1453,7 @@ language={English}
   year      = {2010},
   isbn      = {978-0-12-374226-1},
   pages     = {I-XVI, 1-505},
+  bibsource = {DBLP, http://dblp.uni-trier.de},
   pdf = {http://www.sciencedirect.com/science/book/9780123742261}
 }
 
@@ -1458,6 +1468,7 @@ language={English}
   year      = {2008},
   pages     = {465-482},
   ee        = {http://dx.doi.org/10.1142/S021821300800400X},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 @inproceedings{chestnutt_2005,
    author = "Joel Chestnutt and Manfred Lau and Kong Man Cheung and James Kuffner and Jessica K Hodgins and Takeo Kanade",
@@ -1476,6 +1487,7 @@ language={English}
   year      = {1992},
   pages     = {219-291},
   ee        = {http://doi.acm.org/10.1145/136035.136037},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 @article{konidaris_2012,
   title={Transfer in reinforcement learning via shared features},
@@ -1488,7 +1500,7 @@ language={English}
 }
 
 @book{harada_2010a,
-        editor = {Kensuke Harada, Eiichi Yoshida, Kazuhito Yokoi},
+        editor = {Kensuke Harada and Eiichi Yoshida and Kazuhito Yokoi},
         title = {Motion Planning for Humanoid Robots},
         publisher = {Springer},
         year = {2010},
@@ -1524,7 +1536,7 @@ language={English}
 @article{muelling_2014,
   title={Learning to select and generalize striking movements in robot table tennis},
   author={M{\"u}lling, Katharina and Kober, Jens and Kroemer, Oliver and Peters, Jan},
-  journal=ijrr,
+  journal={The International Journal of Robotics Research},
   volume={32},
   number={3},
   pages={263--279},
@@ -1537,7 +1549,7 @@ language={English}
   author =		 "Peters, J. and  Kober, J. and  Muelling, K. and  Nguyen-Tuong, D. and  Kroemer, O.",
   year =			 "2009",
   title =			 "Towards Motor Skill Learning for Robotics",
-  booktitle =isrr,
+  booktitle =		 "Proceedings of the International Symposium on Robotics Research (ISRR)",
   URL =			 "http://www-clmc.usc.edu/publications/P/Peters_ISRR2009.pdf",
 }
 
@@ -1583,6 +1595,8 @@ language={English}
   year      = {2012},
   pages     = {4716-4723},
   ee        = {http://dx.doi.org/10.1109/IROS.2012.6386229},
+  crossref  = {DBLP:conf/iros/2012},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 
 @inproceedings{lehner_2015,
@@ -1613,7 +1627,8 @@ keywords = "Posture optimization"
 @INPROCEEDINGS{stolle_2007,
   author = {Martin Stolle and Christopher Atkeson},
   title = {Transfer of Policies Based on Trajectory Libraries},
-  booktitle = iros,
+  booktitle = {Proceedings of the International Conference on Intelligent Robots
+	and Systems (IROS 2007)},
   year = {2007},
   pdf = {pubs/stolle2007transfer.pdf},
   tags = {web},
@@ -1688,6 +1703,8 @@ keywords = "Posture optimization"
   year      = {2009},
   pages     = {57},
   ee        = {http://doi.acm.org/10.1145/1553374.1553433},
+  crossref  = {DBLP:conf/icml/2009},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 
 
@@ -1699,6 +1716,8 @@ keywords = "Posture optimization"
   year      = {2010},
   pages     = {2523-2528},
   ee        = {http://dx.doi.org/10.1109/ROBOT.2010.5509825},
+  crossref  = {DBLP:conf/icra/2010},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 
 
@@ -1729,6 +1748,7 @@ keywords = "Posture optimization"
   year      = {2012},
   pages     = {1779-1786},
   ee        = {http://dx.doi.org/10.1109/ICRA.2012.6225212},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 
 
@@ -1760,6 +1780,8 @@ keywords = "Posture optimization"
   year      = {2012},
   pages     = {2082-2088},
   ee        = {http://dx.doi.org/10.1109/IROS.2012.6385651},
+  crossref  = {DBLP:conf/iros/2012},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 
 
@@ -1777,6 +1799,7 @@ keywords = "Posture optimization"
   year      = {2012},
   pages     = {285-302},
   ee        = {http://dx.doi.org/10.1007/s10514-011-9257-9},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 
 
@@ -1804,10 +1827,12 @@ keywords = "Posture optimization"
 @inproceedings{likhachev_2012,
   added-at = {2013-01-02T00:00:00.000+0100},
   author = {Phillips, Michael and Cohen, Benjamin J. and Chitta, Sachin and Likhachev, Maxim},
+  biburl = {http://www.bibsonomy.org/bibtex/232864c6e7ebb73b73f5cf40565a8ae1e/dblp},
   booktitle = rss,
   ee = {http://www.roboticsproceedings.org/rss08/p43.html},
   interhash = {91d0a32a4dde9d67b0c27588a423404b},
   intrahash = {32864c6e7ebb73b73f5cf40565a8ae1e},
+  keywords = {dblp},
   timestamp = {2013-01-02T00:00:00.000+0100},
   title = {\href{http://dblp.uni-trier.de/db/conf/rss/rss2012.html#PhillipsCCL12}{E-Graphs: Bootstrapping Planning with Experience Graphs}},
   pdf = {http://dblp.uni-trier.de/db/conf/rss/rss2012.html#PhillipsCCL12},
@@ -1817,12 +1842,15 @@ keywords = "Posture optimization"
 @inproceedings{nakamura_2007,
   added-at = {2011-09-10T00:00:00.000+0200},
   author = {Kulic, Dana and Takano, Wataru and Nakamura, Yoshihiko},
+  biburl = {http://www.bibsonomy.org/bibtex/21fe16e387e78d9c74e39aac4bcc98d6b/dblp},
   booktitle = {ISRR},
+  crossref = {conf/isrr/2007},
   editor = {Kaneko, Makoto and Nakamura, Yoshihiko},
   ee = {http://dx.doi.org/10.1007/978-3-642-14743-2_8},
   interhash = {c8461aac4a6d887579af25d46d9382c3},
   intrahash = {1fe16e387e78d9c74e39aac4bcc98d6b},
   isbn = {978-3-642-14742-5},
+  keywords = {dblp},
   pages = {87-97},
   publisher = {Springer},
   series = {Springer Tracts in Advanced Robotics},
@@ -1877,11 +1905,14 @@ keywords = "Posture optimization"
 @inproceedings{fcl,
   added-at = {2012-07-19T00:00:00.000+0200},
   author = {Pan, Jia and Chitta, Sachin and Manocha, Dinesh},
+  biburl = {http://www.bibsonomy.org/bibtex/27f177d983814be1058034a83c5bf0add/dblp},
   booktitle = {ICRA},
+  crossref = {conf/icra/2012},
   ee = {http://dx.doi.org/10.1109/ICRA.2012.6225337},
   interhash = {dc1ed59628f87f4fad3e6cd0a296e5e1},
   intrahash = {7f177d983814be1058034a83c5bf0add},
   isbn = {978-1-4673-1403-9},
+  keywords = {dblp},
   pages = {3859-3866},
   publisher = {IEEE},
   timestamp = {2012-07-19T00:00:00.000+0200},
@@ -1948,6 +1979,7 @@ title     = {Adapting Arbitrary Normal Mutation Distributions in Evolution
 booktitle = {International Conference on Evolutionary Computation},
 year      = {1996},
 pages     = {312-317},
+bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 
 
@@ -1960,6 +1992,8 @@ booktitle = {Congress on Evolutionary Computation},
 year      = {2005},
 pages     = {1769-1776},
 ee        = {http://dx.doi.org/10.1109/CEC.2005.1554902},
+crossref  = {DBLP:conf/cec/2005},
+bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 
 
@@ -2050,6 +2084,7 @@ address = {Boston, MA, USA},
   year      = {1983},
   pages     = {108-120},
   ee        = {http://doi.ieeecomputersociety.org/10.1109/TC.1983.1676196},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 
 
@@ -2074,6 +2109,7 @@ an errata, and exercises is available at
   isbn      = {978-0-13-207148-2},
   pages     = {I-XVIII, 1-1132},
   ee        = {http://vig.pearsoned.com/store/product/1,1207,store-12521_isbn-0136042597,00.html},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 
 @inproceedings{nilsson_fikes_1971_strips,
@@ -2084,6 +2120,7 @@ an errata, and exercises is available at
   booktitle = ijcai,
   year      = {1971},
   pages     = {608--620},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 
 @INPROCEEDINGS{ijspeert_2002a,
@@ -2096,7 +2133,7 @@ an errata, and exercises is available at
 @article{toussaint_2007, 
 title={Optimization of sequential attractor-based movement for compact behaviour generation}, 
 url={http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4813858}, 
-journal=humanoids,
+journal={Humanoid Robots 2007 7th IEEERAS International Conference on},
 publisher={IEEE},
 author={Toussaint, Marc and Gienger, Michael and Goerick, Christian},
 year={2007}, 
@@ -2144,6 +2181,7 @@ pages={122–-129}}
   pages     = {2112-2118},
   ee        = {http://dx.doi.org/10.1109/ROBOT.2009.5152577},
 
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 @inproceedings{kober_peters_2009b,
   author    = {Jan Peters and
@@ -2157,6 +2195,7 @@ pages={122–-129}}
   pages     = {469-482},
   ee        = {http://dx.doi.org/10.1007/978-3-642-19457-3_28},
 
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 @inproceedings{kober_peters_2010,
   author    = {Jens Kober and
@@ -2171,6 +2210,7 @@ pages={122–-129}}
   pages     = {853-858},
   ee        = {http://dx.doi.org/10.1109/ROBOT.2010.5509672},
 
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 @inproceedings{kober_peters_2011,
   author    = {Jens Kober and
@@ -2182,6 +2222,7 @@ pages={122–-129}}
   pages     = {338-343},
   ee        = {http://dx.doi.org/10.1109/IROS.2011.6094834},
 
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 
 @inproceedings{stulp_schaal_2011b,
@@ -2197,7 +2238,7 @@ pages={122–-129}}
   author =		 "Stulp, F. and Theodorou, E. and Kalakrishnan, M. and Pastor, P. and Righetti, L. and Schaal, S.",
   year =			 "2011",
   title =			 "learning motion primitive goals for robust manipulation",
-  booktitle =		 iros,
+  booktitle =		 "ieee/rsj international conference on intelligent robots and systems (iros 2011)",
   key =			 "movement primitives, reinforcement learning, pi2, skill learning",
   URL =			 "http://www-clmc.usc.edu/publications/S/stulp-IROS2011",
 }
@@ -2213,7 +2254,7 @@ pages={122–-129}}
 @INPROCEEDINGS{meier_stulp_2011,
   author = {Franziska Meier and Evangelos Theodorou and Freek Stulp and Stefan Schaal},
   title = {Movement Segmentation using a Primitive Library},
-  booktitle = iros,
+  booktitle = {International Conference on Intelligent Robots and Systems (IROS)},
   year = {2011},
   bib2html_accrate = {32\%},
   bib2html_pubtype = {Refereed Conference Paper},
@@ -2336,6 +2377,7 @@ publisher={CreateSpace Independent Publishing Platform}
   year      = {1999},
   isbn      = {978-0-262-16181-7},
   pages     = {I-XIX, 1-697},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 @article{pasula_2007,
   author    = {Hanna M. Pasula and
@@ -2347,6 +2389,7 @@ publisher={CreateSpace Independent Publishing Platform}
   year      = {2007},
   pages     = {309-352},
   ee        = {http://dx.doi.org/10.1613/jair.2113},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 
 @article{kearns_2002,
@@ -2361,6 +2404,7 @@ publisher={CreateSpace Independent Publishing Platform}
   year      = {2002},
   pages     = {193-208},
   ee        = {http://dx.doi.org/10.1023/A:1017932429737},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 
 @inproceedings{kaelbling_perez_2011,
@@ -2372,6 +2416,7 @@ publisher={CreateSpace Independent Publishing Platform}
   pages     = {1470-1477},
   ee        = {http://dx.doi.org/10.1109/ICRA.2011.5980391},
 
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 
 #papers from the Bridging the Gap Between Task and Motion Planning workshop
@@ -2385,6 +2430,7 @@ publisher={CreateSpace Independent Publishing Platform}
   year      = {2010},
   pages     = {5002-5008},
   ee        = {http://dx.doi.org/10.1109/ROBOT.2010.5509563},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 @inproceedings{wolfe_russel_2010,
         title = {Combined Task and Motion Planning for Mobile Manipulation},
@@ -2423,6 +2469,7 @@ publisher={CreateSpace Independent Publishing Platform}
   pages     = {238-244},
   ee        = {http://dx.doi.org/10.1109/ROBOT.2009.5152872},
 
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 
 
@@ -2435,6 +2482,7 @@ publisher={CreateSpace Independent Publishing Platform}
   pages     = {254-258},
   ee        = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS10/paper/view/1456},
 
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 
 @article{cambon_alami_2009,
@@ -2467,6 +2515,7 @@ publisher={CreateSpace Independent Publishing Platform}
   pages     = {100-110},
   ee        = {http://dx.doi.org/10.1007/11008941_11},
 
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 
 
@@ -2480,6 +2529,7 @@ publisher={CreateSpace Independent Publishing Platform}
   pages     = {1108-1115},
   ee        = {http://dx.doi.org/10.1109/CDC.2010.5717440},
 
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 @inproceedings{bhatia_2010a,
   author    = {Amit Bhatia and
@@ -2491,6 +2541,7 @@ publisher={CreateSpace Independent Publishing Platform}
   pages     = {2689-2696},
   ee        = {http://dx.doi.org/10.1109/ROBOT.2010.5509503},
 
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 
 
@@ -2507,6 +2558,8 @@ booktitle = {Bridging the Gap Between Task and Motion Planning},
 year      = {2010},
 ee        =
 {http://aaai.org/ocs/index.php/WS/AAAIW10/paper/view/2056},
+crossref  = {DBLP:conf/aaai/2010plan},
+bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 
 
@@ -2519,6 +2572,7 @@ ee        =
   year      = {2011},
   pages     = {5492-5498},
 
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 @inproceedings{sucan_2011b,
   author    = {Ioan Alexandru Sucan and
@@ -2530,6 +2584,7 @@ ee        =
   pages     = {4621-4626},
   ee        = {http://dx.doi.org/10.1109/IROS.2011.6094595},
 
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 
 @phdthesis{hauser_thesis,
@@ -2549,6 +2604,8 @@ title     = {Planning for Manipulation with Adaptive Motion Primitives},
 booktitle = icra,
 year      = {2011},
 pages     = {5478-5485},
+crossref  = {DBLP:conf/icra/2011},
+bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 
 
@@ -2556,7 +2613,7 @@ pages     = {5478-5485},
 author={Dae-Hyung Park and Heiko Hoffmann and Peter Pastor and Stefan Schaal},
 year={2008},
 title={movement reproduction and obstacle avoidance with dynamic movement primitives and potential fields},
-booktitle =	humanoids,
+booktitle =	{IEEE International Conference on Humanoid Robots, 2008.},
 URL =			{http://www-clmc.usc.edu/publications//D/DaeHyungPark_humanoids_2008.pdf}
 }
 
@@ -2603,6 +2660,7 @@ month = Feb}
   volume    = {abs/1009.3958},
   year      = {2010},
   ee        = {http://arxiv.org/abs/1009.3958},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 @incollection{toussaint_goerick_2010,
   author    = {Marc Toussaint and
@@ -2613,11 +2671,12 @@ month = Feb}
   pages     = {227-252},
   ee        = {http://dx.doi.org/10.1007/978-3-642-05181-4_11},
 
+  bibsource = {DBLP, http://dblp.uni-trier.de}
 }
 @inproceedings{toussaint_2009,
   title={\href{http://dl.acm.org/citation.cfm?id=1553508}{Robot trajectory optimization using approximate inference}},
   author={Toussaint, Marc},
-  booktitle=icml,
+  booktitle={International Conference on Machine Learning},
   year={2009},
 }
 
@@ -2678,14 +2737,209 @@ year = {2004},
         pdf = {http://homepages.laas.fr/aorthey/papers/bsc_orthey.pdf}
 }      
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% CONFERENCES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@proceedings{DBLP:conf/cec/2005,
+title     = {Proceedings of the IEEE Congress on Evolutionary Computation,
+			 CEC 2005, 2-4 September 2005, Edinburgh, UK},
+booktitle = {IEEE Congress on Evolutionary Computation},
+publisher = {IEEE},
+year      = {2005},
+isbn      = {0-7803-9363-5},
+bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+@proceedings{DBLP:conf/rss/2012,
+  title     = {Robotics: Science and Systems VIII, University of Sydney,
+               Sydney, NSW, Australia, July 9-13, 2012},
+  booktitle = {Robotics: Science and Systems},
+  year      = {2012},
+  ee        = {http://www.roboticsproceedings.org/rss08/},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
 
 %%%%%%%%%%% BIB ICRA %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@proceedings{DBLP:conf/icra/2009,
+  title     = {2009 IEEE International Conference on Robotics and Automation,
+               ICRA 2009, Kobe, Japan, May 12-17, 2009},
+  booktitle = {ICRA},
+  publisher = {IEEE},
+  year      = {2009},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+@proceedings{DBLP:conf/icra/2010,
+title     = {IEEE International Conference on Robotics and Automation,
+ICRA 2010, Anchorage, Alaska, USA, 3-7 May 2010},
+booktitle = {ICRA},
+publisher = {IEEE},
+year      = {2010},
+bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+@proceedings{DBLP:conf/icra/2011,
+  title     = {IEEE International Conference on Robotics and Automation,
+               ICRA 2011, Shanghai, China, 9-13 May 2011},
+  booktitle = {ICRA},
+  publisher = {IEEE},
+  year      = {2011},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+@proceedings{DBLP:conf/icra/2012,
+  title     = {IEEE International Conference on Robotics and Automation,
+               ICRA 2012, 14-18 May, 2012, St. Paul, Minnesota, USA},
+  booktitle = {ICRA},
+  publisher = {IEEE},
+  year      = {2012},
+  isbn      = {978-1-4673-1403-9},
+  ee        = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6215071},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+%%%%%%%%%%% BIB IROS %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@proceedings{DBLP:conf/iros/2011,
+  title     = {2011 IEEE/RSJ International Conference on Intelligent Robots
+               and Systems, IROS 2011, San Francisco, CA, USA, September
+               25-30, 2011},
+  booktitle = {IROS},
+  publisher = {IEEE},
+  year      = {2011},
+  isbn      = {978-1-61284-454-1},
+  ee        = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6034548},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+@proceedings{DBLP:conf/iros/2012,
+  title     = {2012 IEEE/RSJ International Conference on Intelligent Robots
+               and Systems, IROS 2012, Vilamoura, Algarve, Portugal, October
+               7-12, 2012},
+  booktitle = {IROS},
+  publisher = {IEEE},
+  year      = {2012},
+  isbn      = {978-1-4673-1737-5},
+  ee        = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6363628},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@proceedings{DBLP:conf/isrr/2009,
+  editor    = {C{\'e}dric Pradalier and
+               Roland Siegwart and
+               Gerhard Hirzinger},
+  title     = {Robotics Research - The 14th International Symposium, ISRR
+               2009, August 31 - September 3, 2009, Lucerne, Switzerland},
+  booktitle = {ISRR},
+  publisher = {Springer},
+  series    = {Springer Tracts in Advanced Robotics},
+  volume    = {70},
+  year      = {2011},
+  isbn      = {978-3-642-19456-6},
+  ee        = {http://dx.doi.org/10.1007/978-3-642-19457-3},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@proceedings{DBLP:conf/aips/2010,
+  editor    = {Ronen I. Brafman and
+               Hector Geffner and
+               J{\"o}rg Hoffmann and
+               Henry A. Kautz},
+  title     = {Proceedings of the 20th International Conference on Automated
+               Planning and Scheduling, ICAPS 2010, Toronto, Ontario, Canada,
+               May 12-16, 2010},
+  booktitle = {ICAPS},
+  publisher = {AAAI},
+  year      = {2010},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@proceedings{DBLP:conf/aaai/2010plan,
+  title     = {Bridging the Gap Between Task and Motion Planning, Papers
+               from the 2010 AAAI Workshop, Atlanta, Georgia, USA, July
+               11, 2010},
+  booktitle = {Bridging the Gap Between Task and Motion Planning},
+  publisher = {AAAI},
+  series    = {AAAI Workshops},
+  volume    = {WS-10-01},
+  year      = {2010},
+  ee        = {http://www.aaai.org/Library/Workshops/ws10-01.php},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+@proceedings{DBLP:conf/isrr/2003,
+  editor    = {Paolo Dario and
+               Raja Chatila},
+  title     = {Robotics Research, The Eleventh International Symposium,
+               ISRR, October 19-22, 2003, Siena, Italy},
+  booktitle = {ISRR},
+  publisher = {Springer},
+  series    = {Springer Tracts in Advanced Robotics},
+  volume    = {15},
+  year      = {2005},
+  isbn      = {978-3-540-23214-8},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+@proceedings{DBLP:conf/cdc/2010,
+  title     = {Proceedings of the 49th IEEE Conference on Decision and
+               Control, CDC 2010, December 15-17, 2010, Atlanta, Georgia,
+               USA},
+  booktitle = {CDC},
+  publisher = {IEEE},
+  year      = {2010},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@proceedings{DBLP:conf/wafr/2006,
+  editor    = {Srinivas Akella and
+  Nancy M. Amato and
+  Wesley H. Huang and
+  Bud Mishra},
+  title     = {Algorithmic Foundation of Robotics VII, Selected
+  Contributions
+  of the Seventh International Workshop on the
+  Algorithmic
+  Foundations of Robotics, WAFR 2006, July
+  16-18, 2006, New
+  York, NY, USA},
+  booktitle = {WAFR},
+  publisher = {Springer},
+  series    = {Springer Tracts in Advanced Robotics},
+  volume    = {47},
+  year      = {2008},
+  isbn      = {978-3-540-68404-6},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+@proceedings{DBLP:conf/icml/2009,
+  editor    = {Andrea Pohoreckyj Danyluk and
+               L{\'e}on Bottou and
+               Michael L. Littman},
+  title     = {Proceedings of the 26th Annual International Conference
+               on Machine Learning, ICML 2009, Montreal, Quebec, Canada,
+               June 14-18, 2009},
+  booktitle = {ICML},
+  publisher = {ACM},
+  series    = {ACM International Conference Proceeding Series},
+  volume    = {382},
+  year      = {2009},
+  isbn      = {978-1-60558-516-1},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@book{DBLP:series/sci/2010-264,
+  editor    = {Olivier Sigaud and
+               Jan Peters},
+  title     = {From Motor Learning to Interaction Learning in Robots},
+  booktitle = {From Motor Learning to Interaction Learning in Robots},
+  publisher = {Springer},
+  series    = {Studies in Computational Intelligence},
+  volume    = {264},
+  year      = {2010},
+  isbn      = {978-3-642-05180-7},
+  ee        = {http://dx.doi.org/10.1007/978-3-642-05181-4},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
 
 @article{openhrp,
   title={\href{http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1013334}{OpenHRP:
           Open architecture humanoid robotics platform}},
   author={Kanehiro, Fumio and Hirukawa, Hirohisa and Kajita, Shuuji},
-  journal=ijrr,
+  journal={The International Journal of Robotics Research},
   volume={23},
   number={2},
   pages={155--165},
